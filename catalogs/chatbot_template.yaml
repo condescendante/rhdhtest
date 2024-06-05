@@ -3,9 +3,9 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: rhdhdemo1
-  title: RHDH Test Scaffold template from Backstage
-  description: scaffolder v1beta3 template demo
+  name: chatbot
+  title: GenAI Chatbot Template
+  description: Template for anyone who wants to create a GENAI based chatbot application
 spec:
   owner: backstage/techdocs-core
   type: service
