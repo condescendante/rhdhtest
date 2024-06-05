@@ -3,8 +3,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: chatbot2
-  title: GenAI Chatbot Template2
+  name: chatbot
+  title: GenAI Chatbot Template
   description: Template for anyone who wants to create a GENAI based chatbot application
 spec:
   owner: backstage/techdocs-core
