@@ -74,6 +74,9 @@ spec:
         values:
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
+          cluster: .apps.cluster-lth2v.sandbox112.opentlc.com
+          host: ${{ parameters.repo.host }}
+          destination: ${{ parameters.repo.owner }}/${{ parameters.component_id }}
 
     - id: fetch-docs
       name: Fetch Docs
