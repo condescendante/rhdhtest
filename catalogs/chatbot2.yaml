@@ -80,7 +80,7 @@ spec:
       action: fetch:plain
       input:
         targetPath: .
-        url: https://github.com/utherp0/testscaffold
+        url: https://github.com/condescendante/chatbot_scaffolding
 
     - id: publish
       name: Publish
