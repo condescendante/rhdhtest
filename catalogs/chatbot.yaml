@@ -89,6 +89,8 @@ spec:
       name: Publish
       action: publish:gitlab
       input:
+        allowedHosts: ['gitlab.com']
+        description: This is ${{ parameters.name }}
         repoUrl: "${{ parameters.repo.host }}?owner=${{ parameters.repo.owner }}&repo=${{ parameters.component_id }}"
         repoVisibility: public
 
