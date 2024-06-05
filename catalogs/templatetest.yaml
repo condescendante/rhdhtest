@@ -74,7 +74,7 @@ spec:
         targetPath: .
         url: https://github.com/utherp0/testscaffold
 
-     - id: publish
+    - id: publish
       name: Publish
       action: publish:gitlab
       input:
