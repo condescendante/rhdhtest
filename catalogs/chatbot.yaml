@@ -38,6 +38,12 @@ spec:
           default: chatbot
           ui:field: EntityNamePicker
           maxLength: 23
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.
+          default: A chatbot app.
+
 
 
     - title: Application repository Information
@@ -72,6 +78,8 @@ spec:
       input:
         url: ./template
         values:
+          component_id: ${{ parameters.component_id }}
+          description: ${{ parameters.description }}
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
           cluster: .apps.cluster-lth2v.sandbox112.opentlc.com
